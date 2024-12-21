@@ -1,0 +1,103 @@
+body{
+    height:100%;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:100px;
+    width:80rem;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+ul{
+    width:30rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo img{
+    height:30px;
+    margin-top: 10px;
+    margin-left:201px;
+}
+
+.division{
+    height:100%;
+    width:77%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:100px;
+}
+
+.division-box{
+    height:100%;
+    width:59%;
+    margin-left: 100px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.division1 img{
+    height:15rem;
+    width:37rem;
+}
+
+
+.division2{
+    height:26rem;
+    width:17rem;
+    background-color: black;
+    padding:12px;
+    margin-right:10px;
+}
+
+.division2 h1{
+    color: hsl(35, 77%, 62%);
+}
+
+.division2 h3{
+    color:hsl(36, 100%, 99%);
+}
+
+.division2 p{
+    color: hsl(36, 100%, 99%);
+}
+
+.division-bottom{
+    height:25%;
+    width:75%;
+    display:flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    
+    
+}
+
+.division-left{
+    width:20rem;
+    font-size: 2rem;
+    /*display:flex;
+    justify-content: flex-start;*/
+}
+/*.division-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}*/
+
+
+.division-right button{
+    background-color:hsl(5, 85%, 63%) ;
+    padding:10px;
+    border: none;
+    color:hsl(240, 100%, 5%);
+    font-weight: bolder;
+   
+}
